@@ -1,4 +1,4 @@
 import "./styles.css";
-import { initialPageLoad } from "./elements.js";
+import { homeContent } from "./tabs/home.js";
 
-initialPageLoad();
+homeContent();

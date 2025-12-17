@@ -1,4 +1,4 @@
-function initialPageLoad() {
+function homeContent() {
   // elements to append on
   const content = document.querySelector("#content");
 
@@ -32,4 +32,4 @@ function initialPageLoad() {
   content.appendChild(heroSection);
 }
 
-export { initialPageLoad };
+export { homeContent };
