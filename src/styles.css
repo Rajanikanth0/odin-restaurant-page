@@ -4,3 +4,48 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+/* header */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* hero section */
+
+.hero-section {
+  width: 66ch;
+  margin: 0 auto;
+  text-align: center;
+  height: 20rem;
+}
+
+.hero-section .title {
+  font-size: 2.5rem;
+}
+
+.hero-section .description {
+  font-size: 1.5rem;
+}
+
+.hero-section .search {
+  height: 2.5rem;
+
+  display: flex;
+
+  margin: 0 auto;
+  border: thin solid black;
+}
+
+.search .icon {
+  width: 2.5rem;
+  height: 100%;
+}
+
+.search input {
+  flex: 1;
+  
+  border: none;
+  outline: none;
+}

@@ -10,10 +10,15 @@
 <body>
   <header>
     <nav>
-      <button>Home</button>
-      <button>Menu</button>
-      <button>About</button>
-      <button>Login</button>
+      <div class="left">
+        <button>Home</button>
+      </div>
+
+      <div class="right">
+        <button>Menu</button>
+        <button>About</button>
+        <button>Login</button>
+      </div>
     </nav>
   </header>
 
@@ -21,7 +26,10 @@
     <div class="hero-section">
       <h1 class="title">Restaurant Page</h1>
       <p class="description">Discover the best food & drinks around the corner</p>
-      <div class="search"></div>
+      <div class="search">
+        <div class="icon"></div>
+        <input type="search" placeholder="Search for food...">
+      </div>
     </div>
     <div class="items-section"></div>
   </div>
