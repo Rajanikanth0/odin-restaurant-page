@@ -4,7 +4,7 @@
   <h1 class="title">Restaurant Page</h1>
   <p class="description">Discover the best food &amp; drinks around the corder</p>
   <div class="search">
-    <div class="icon"></div>
+    <img class="icon" src="./database/search.svg">
     <input type="search" placeholder="Search for food...">
   </div>
 </div>

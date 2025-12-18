@@ -1,3 +1,5 @@
+import searchIcon from "../database/search.svg";
+
 function homeContent() {
   // elements to append on
   const content = document.querySelector("#content");
@@ -18,8 +20,9 @@ function homeContent() {
   const search = document.createElement("div");
   search.classList.add("search");
 
-  const icon = document.createElement("div");
+  const icon = document.createElement("img");
   icon.classList.add("icon");
+  icon.src = searchIcon;
 
   const input = document.createElement("input");
   input.setAttribute("type", "search");
