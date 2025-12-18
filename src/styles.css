@@ -62,17 +62,61 @@ nav {
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
-.image {
+.menu .image {
   height: 12rem;
 }
 
-.card {
+.menu .card {
   padding: 1rem;
   border: thin solid black;
 }
-.card > * {
+.menu .card > * {
   margin: 0;
 }
-.card > .image {
+.menu .card > .image {
   margin-bottom: 1rem;
+}
+
+/* about */
+
+.about {
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+.about > * {
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: justify;
+}
+
+.about .image {
+  box-shadow: 0 0 0.5rem gray;
+}
+
+.about .short-summary {
+  font-size: 1.5rem;
+  color: white;
+  background-color: lightcoral;
+}
+
+.about .long-summary {
+  background-color: rgb(141, 214, 163);
+}
+
+.about .links {
+  align-self: start;
+  background-color: rgb(247, 237, 155);
+}
+.about ul {
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+}
+.about a {
+  color: black;
 }
