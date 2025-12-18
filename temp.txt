@@ -8,7 +8,10 @@
     <input type="search" placeholder="Search for food...">
   </div>
 
-  <img src="./database/food.jpg">
+  <div class="backgroundImage">
+    <img src="./database/food.jpg">
+    Image by <a href="https://pixabay.com/users/biancavandijk-9606149/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9083822">Bianca Van Dijk</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=9083822">Pixabay</a>
+  </div>
 </div>
 
 /* menu tab */
