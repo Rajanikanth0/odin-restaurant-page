@@ -12,6 +12,12 @@ nav {
   justify-content: space-between;
 }
 
+/* content */
+
+#content {
+  padding: 5rem;
+}
+
 /* hero section */
 
 .hero-section {
@@ -46,4 +52,28 @@ nav {
 .search input {
   flex: 1;
   border: none;
+}
+
+/* menu */
+
+.menu {
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+.image {
+  height: 12rem;
+  background-color: lightblue;
+}
+
+.card {
+  padding: 1rem;
+  border: thin solid black;
+}
+.card > * {
+  margin: 0;
+}
+.card > .image {
+  margin-bottom: 0.5rem;
 }
