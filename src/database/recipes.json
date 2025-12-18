@@ -1,0 +1,57 @@
+[
+  {
+    "color": "#00a5e3",
+    "name": "Italian Pizza Margherita",
+    "description": "a brief description of the recipe"
+  },
+  {
+    "color": "#8dd7bf",
+    "name": "Japanese Sushi",
+    "description": "a brief description of the recipe"
+  },
+  {
+    "color": "#ff96c5",
+    "name": "Vietnamese Pho",
+    "description": "a brief description of the recipe"
+  },
+  {
+    "color": "#ff5768",
+    "name": "French Roast Chicken",
+    "description": "a brief description of the recipe"
+  },
+  {
+    "color": "#ffbf65",
+    "name": "Korean Fried Chicken",
+    "description": "a brief description of the recipe"
+  },
+  {
+    "color": "#ffd872",
+    "name": "Mexican Tacos",
+    "description": "a brief description of the recipe"
+  },
+  {
+    "color": "#0065a2",
+    "name": "Chinese Dumplings",
+    "description": "a brief description of the recipe"
+  },
+  {
+    "color": "#cff800",
+    "name": "American Lettuce Wraps",
+    "description": "a brief description of the recipe"
+  },
+  {
+    "color": "#f00cf9",
+    "name": "American Creamed Spinach",
+    "description": "a brief description of the recipe"
+  },
+  {
+    "color": "#4dd091",
+    "name": "Spaghetti Bolognese",
+    "description": "a brief description of the recipe"
+  },
+  {
+    "color": "#ffa23a",
+    "name": "Superiority Burger",
+    "description": "a brief description of the recipe"
+  }
+]

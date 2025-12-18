@@ -1,17 +1,20 @@
-function getCard() {
+import recipes from "../database/recipes.json";
+
+function getCard(recipe) {
   const card = document.createElement("div");
   card.classList.add("card");
 
   const image = document.createElement("div");
   image.classList.add("image");
+  image.style.backgroundColor = recipe.color;
 
   const title = document.createElement("h2");
   title.classList.add("title");
-  title.textContent = "Recipe Name";
+  title.textContent = recipe.name;
 
   const description = document.createElement("p");
   description.classList.add("description");
-  description.textContent = "a brief sentence about the recipe";
+  description.textContent = recipe.description;
 
   card.append(image, title, description);
 
@@ -24,8 +27,8 @@ function menuContent() {
   const menu = document.createElement("div");
   menu.classList.add("menu");
 
-  for (let n = 0; n < 10; n++) {
-    const card = getCard();
+  for (const recipe of recipes) {
+    const card = getCard(recipe);
     menu.appendChild(card);
   }
 
