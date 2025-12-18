@@ -94,6 +94,9 @@ nav {
 .about .image {
   box-shadow: 0 0 0.5rem gray;
 }
+.about .image img {
+  width: 100%;
+}
 
 .about .short-summary {
   font-size: 1.5rem;
@@ -106,7 +109,6 @@ nav {
 }
 
 .about .links {
-  align-self: start;
   background-color: rgb(247, 237, 155);
 }
 .about ul {
