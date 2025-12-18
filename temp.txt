@@ -7,6 +7,8 @@
     <img class="icon" src="./database/search.svg">
     <input type="search" placeholder="Search for food...">
   </div>
+
+  <img src="./database/food.jpg">
 </div>
 
 /* menu tab */

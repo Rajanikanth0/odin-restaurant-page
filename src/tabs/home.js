@@ -1,4 +1,5 @@
 import searchIcon from "../database/search.svg";
+import backgroundImage from "../database/food.jpg";
 
 function homeContent() {
   // elements to append on
@@ -28,10 +29,13 @@ function homeContent() {
   input.setAttribute("type", "search");
   input.setAttribute("placeholder", "Search for food...");
 
+  const img = document.createElement("img");
+  img.src = backgroundImage;
+
   // assign elements
 
   search.append(icon, input);
-  heroSection.append(title, description, search);
+  heroSection.append(title, description, search, img);
   content.appendChild(heroSection);
 }
 
