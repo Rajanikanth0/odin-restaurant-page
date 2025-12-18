@@ -15,11 +15,13 @@ function getImage() {
   creditLink1.setAttribute("href", "https://unsplash.com/@soymeraki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText");
   creditLink1.textContent = "Javier Allegue Barros";
 
+  const text = document.createTextNode(" on ");
+
   const creditLink2 = document.createElement("a");
   creditLink2.setAttribute("href", "https://unsplash.com/photos/silhouette-photography-of-people-gathered-together-on-cliff-i5Kx0P8A0d4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText")
   creditLink2.textContent = "Unsplash";
 
-  photoCredit.append(creditLink1, creditLink2);
+  photoCredit.append(creditLink1, text, creditLink2);
   image.append(img, photoCredit);
 
   return image;
