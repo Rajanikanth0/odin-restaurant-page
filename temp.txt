@@ -1,0 +1,30 @@
+/* home tab */
+
+<div class="hero-section">
+  <h1 class="title">Restaurant Page</h1>
+  <p class="description">Discover the best food &amp; drinks around the corder</p>
+  <div class="search">
+    <div class="icon"></div>
+    <input type="search" placeholder="Search for food...">
+  </div>
+</div>
+
+/* menu tab */
+
+<div class="menu">
+  <div class="card">
+    <div class="image"></div>
+    <h2 class="title">Recipe Name 1</h2>
+    <p class="description">a brief sentence about the recipe 1</p>
+  </div>
+  <div class="card">
+    <div class="image"></div>
+    <h2 class="title">Recipe Name 2</h2>
+    <p class="description">a brief sentence about the recipe 2</p>
+  </div>
+  <div class="card">
+    <div class="image"></div>
+    <h2 class="title">Recipe Name 3</h2>
+    <p class="description">a brief sentence about the recipe 3</p>
+  </div>
+</div>
